@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-white">
+<html lang="en">
 <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +44,7 @@
 <!-- Slider or carousel -->
 <div class="carousel w-full bg-sliderBg">
   <div id="slide1" class="carousel-item relative w-full justify-center">
-          <div class="flex flex-col lg:flex-row lg:p-24 md:p-16 p-3 gap-8">
+          <div class="flex flex-col lg:flex-row lg:p-24 md:p-16 sm:p-16 p-8 gap-8">
                     <div class="content flex-1 space-y-6">
                      <h2 class="sm:text-6xl text-4xl text-black font-bold">Ride-on R15 V4 <br> with Smile</h2>
                      <p class="text-black font-light leading-6 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -58,7 +58,7 @@
     </div>
   </div> 
   <div id="slide2" class="carousel-item relative w-full">
-    <div class="flex flex-col lg:flex-row lg:p-24 md:p-16 p-3 gap-8">
+    <div class="flex flex-col lg:flex-row lg:p-24 md:p-16 p-8 gap-8">
                     <div class="content flex-1 space-y-6">
                      <h2 class="sm:text-6xl text-4xl text-black font-bold">Ride-on R15 V4 <br> with Smile</h2>
                      <p class="text-black font-light leading-6 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -103,11 +103,18 @@
 </header>
 <main class="md:container md:mx-auto px-4 my-32">
 
-  <section class="feature-bike"></section>        
+  <section class="feature-bike mb-32">
+    <h3 class="text-black text-center font-semibold text-2xl lg:text-5xl mb-16">Fetured Bikes In This Year</h3>
+    <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-16 justify-items-center">
+      <div><img class="md:w-full w-64" src="./images/others/Rectangle 4637 1.png" alt="Bike"></div>
+      <div><img class="md:w-full w-64" src="./images/others/feature-bike.png" alt="Bike"></div>
+      <div><img class="md:w-full w-64" src="./images/others/Rectangle 4637 1.png" alt="Bike"></div>
+    </div>
+  </section>        
 
   <section class="latest-news">
           <h3 class="lg:text-5xl text-2xl font-semibold text-center text-black mb-12">Latest News</h3>
-          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center gap-8 gap-x-8">
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center gap-8">
            <!-- card 1 -->
            <div class="card shadow-xl p-8 gap-8">
             <figure><img class="w-full" src="images/others/latest1.png" alt="Bike" />
@@ -146,8 +153,148 @@
            </div>
           </div>
   </section>
+
+  <section class="review my-32">
+    <h3 class="text-center text-black font-semibold text-2xl md:text-5xl mb-14">Happy <span class="text-bgBtton">Clients says</span></h3>
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 ">
+      <!-- review 1 -->
+      <div class="card shadow-xl border-borderColor border border-solid">
+  <figure class="px-10 pt-10">
+    <img src="./images/others/user-1.png" alt="Shoes" class="rounded-xl w-40 h-auto" />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <p class="text-black text-base font-normal">Slate helps you see how 
+many more days you need 
+to work to reach your financial 
+goal for the month and year.</p>
+<div class="rating gap-x-2">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+<p class="text-info font-semibold">Regina Miles</p>
+<h6 class="text-black text-sm font-semibold">Banker</h6>
+  </div>
+      </div>
+    <!-- review 2 -->
+    <div class="card shadow-xl border-borderColor border border-solid">
+  <figure class="px-10 pt-10">
+    <img src="./images/others/user-2.png" alt="Shoes" class="rounded-xl w-40 h-auto" />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <p class="text-black text-base font-normal">Slate helps you see how 
+many more days you need 
+to work to reach your financial 
+goal for the month and year.</p>
+<div class="rating gap-x-2">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+<p class="text-info font-semibold">Regina Miles</p>
+<h6 class="text-black text-sm font-semibold">Banker</h6>
+  </div>
+      </div>
+      <!-- review 3 -->
+      <div class="card shadow-xl border-borderColor border border-solid">
+  <figure class="px-10 pt-10">
+    <img src="./images/others/user-3.png" alt="Shoes" class="rounded-xl w-40 h-auto" />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <p class="text-black text-base font-normal">Slate helps you see how 
+many more days you need 
+to work to reach your financial 
+goal for the month and year.</p>
+<div class="rating gap-x-2">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+<p class="text-info font-semibold">Regina Miles</p>
+<h6 class="text-black text-sm font-semibold">Banker</h6>
+  </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="FAQ">
+    <h3 class="text-black text-center font-semibold md:text-5xl text-2xl">Frequently Asked <span class="text-bgBtton">Questions</span></h3>
+
+  <div class="hero my-14">
+  <div class="hero-content flex-col lg:flex-row gap-28">
+    <img class="md:w-full md:max-w-96 w-80" src="./images/others/faq.png" />
+  <div>
+  <div class="collapse collapse-arrow border border-borderColor border-solid mb-8">
+  <input type="radio" name="my-accordion-2" checked="checked" /> 
+  <div class="collapse-title text-xl font-medium text-black">
+    What are the most important things I should know about riding a bike?
+  </div>
+  <div class="collapse-content text-accordionColor"> 
+    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+  </div>
+</div>
+<div class="collapse collapse-arrow border border-borderColor border-solid mb-8">
+  <input type="radio" name="my-accordion-2" /> 
+  <div class="collapse-title text-xl font-medium text-black">
+How can I tell if my helmet is old and I need a new one?
+  </div>
+  <div class="collapse-content text-base text-accordionColor"> 
+    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+  </div>
+</div>
+<div class="collapse collapse-arrow border border-borderColor border-solid mb-8">
+  <input type="radio" name="my-accordion-2" /> 
+  <div class="collapse-title text-xl font-medium text-black">
+My bike has been in storage is it safe to ride?
+  </div>
+  <div class="collapse-content accordionColor"> 
+    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+  </div>
+</div>
+<div class="collapse collapse-arrow border border-borderColor border-solid">
+  <input type="radio" name="my-accordion-2" /> 
+  <div class="collapse-title text-xl font-medium text-black">
+What rules should I follow when riding my bike?
+  </div>
+  <div class="collapse-content accordionColor"> 
+    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+  </section>
 </main>
-<footer></footer>
+<footer class="footer p-10 bg-footerBg text-white">
+    <aside>
+      <ul class="flex gap-6">
+        <li><a href="#">Download Now</a></li>
+        <li><a href="#">License</a></li>
+      </ul>
+      <ul class="flex gap-6 my-4 md:flex-row flex-col">
+        <li><a class="font-normal" href="#">About</a></li>
+        <li><a class="font-normal" href="#">Features</a></li>
+        <li><a class="font-normal" href="#">Pricing</a></li>
+        <li><a class="font-normal" href="#">Careers</a></li>
+        <li><a class="font-normal" href="#">Help</a></li>
+        <li><a class="font-normal" href="#">Privacy Policy</a></li>
+      </ul>
+      <p id="copy-right" class="mt-3"></p>
+    </aside>
+    <nav>
+      <header class="footer-title">Get the App</header>
+      <div class="grid grid-flow-row gap-4">
+        <a href="#"><img class="w-36" src="./images/others/android.png" alt=""></a>
+        <a href="#"><img class="w-36" src="./images/others/ios.png" alt=""></a>
+      </div>
+    </nav>
+</footer>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
     tailwind.config = {
@@ -155,11 +302,16 @@
         extend: {
           colors: {
             bgBtton: '#E76F51',
-            sliderBg: 'rgba(231, 111, 81, 0.10)'
+            sliderBg: 'rgba(231, 111, 81, 0.10)',
+            borderColor: '#DEDEDE',
+            accordionColor: '#7E848C',
+            footerBg: '#0B0D17'
           }
         }
       }
     }
+    const currentYear = new Date().getFullYear();
+    document.getElementById('copy-right').innerHTML = "©" +  currentYear + " bike. All rights reserved"
   </script>          
 </body>
 </html>
